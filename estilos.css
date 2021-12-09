@@ -47,17 +47,12 @@ div#bebidas{
   border: 2px solid rgb(180,224,205,88)
 }
 
-div#tablas{
-  background-color: blue;
-  align-items:center;
-}
 
-
-td{
+td.selector{
   padding: 15px;
 }
 
-td:hover{
+td.selector:hover{
   color:white
 }
 
@@ -76,3 +71,21 @@ img.foto{ /*Clases con punto, id con #*/
 -webkit-border-radius: 200px 200px 200px 200px;
 border: 1px solid #000000;
 }
+
+div#ubicacion{
+  margin-top: -120px;
+  margin-left: 50px;
+}
+
+img.menu{
+  width: 150px;
+  height: 150px;
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 1px solid rgb(224, 190, 190, 95);
+}
+
+/*table.platillos{
+  border-spacing: 200px;
+}*/

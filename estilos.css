@@ -24,7 +24,8 @@ div#promociones{
   height: 450px;
   margin-top: -469px;
   margin-left: 1415px;
-  border: 2px solid rgb(180,224,205,88);
+  border-left: 2px solid rgb(180,224,205,88);
+  border-right: 2px solid rgb(180,224,205,88);
 }
 
 div#frituras{
@@ -97,4 +98,11 @@ p{
 
 p:hover{
   font-weight: bold;
+}
+
+div#banner{
+  height: 50px;
+  background-image: url("italiano/bandera.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }

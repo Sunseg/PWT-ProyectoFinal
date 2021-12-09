@@ -1,0 +1,78 @@
+html{
+  background-color: rgb(255, 245, 245, 100);
+}
+
+div#contenedor{
+
+}
+
+div#cabezal{
+  background-color: rgb(224, 190, 190, 95);
+  width: screen.width;
+  height: 110px;
+  margin-top: -20px;
+}
+
+div#platillos{
+
+  width: 75%;
+  height: 450px;
+}
+
+div#promociones{
+  width: 25%;
+  height: 450px;
+  margin-top: -469px;
+  margin-left: 1415px;
+  border: 2px solid rgb(180,224,205,88)
+}
+
+div#frituras{
+  width: 50%;
+  height: 300px;
+  border: 2px solid rgb(180,224,205,88)
+}
+
+div#postres{
+  width: 50%;
+  height: 300px;
+  margin-top: -304px;
+  margin-left: 50%;
+  border: 2px solid rgb(180,224,205,88)
+}
+
+div#bebidas{
+  width: 100%;
+  height: 200px;
+  border: 2px solid rgb(180,224,205,88)
+}
+
+div#tablas{
+  background-color: blue;
+  align-items:center;
+}
+
+
+td{
+  padding: 15px;
+}
+
+td:hover{
+  color:white
+}
+
+div#contacto{
+  background-color: white;
+  height: 100px;
+  margin-top: -18px;
+}
+
+img.foto{ /*Clases con punto, id con #*/
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 1px solid #000000;
+}

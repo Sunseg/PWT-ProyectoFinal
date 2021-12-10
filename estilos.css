@@ -12,6 +12,9 @@ div#cabezal{
   height: 110px;
   margin-top: -20px;
 }
+div#selector{
+  margin-top: -50px;
+}
 
 div#platillos{
 
@@ -105,4 +108,11 @@ div#banner{
   background-image: url("italiano/bandera.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+img.logo{
+  width: 100px;
+  height: 100px;
+  margin-top: -55px;
+  margin-left: 500px
 }
